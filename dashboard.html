@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House Admin</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- fontawesome -->
+  <!-- rel="stylesheet" -->
+  <link rel="stylesheet" href="css/tailwind.css" />
+  <link rel="stylesheet" href="css/house-cafe.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'PT Serif', sans-serif;
+      height: 100vh;
+      background-image: url(img/cafe.png);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .header {
+      font-size: 1.5rem;
+      font-weight: bold;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    .spacer {
+      margin: 20px 0; 
+    }
+  </style>
+</head>
+<body>
+  <div class="header">HOUSE CAFE</div>
+  <div class="text-center">
+    <div class="inline-block">
+      <h1 class="text-white text-5xl tm-logo-font mb-5">House Admin </h1>
+    <a 
+    href="reservasi.php" 
+    class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition"
+    >
+    Pelanggan Reservasi</a>
+    <div class="spacer"></div>
+
+    <a 
+    href="saran.php" 
+    class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition"
+    >
+    Saran</a>
+    <div class="spacer"></div>
+    
+    <a 
+    href="admin_logout.php" 
+    class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition"
+    >
+    Logout</a>
+    <div class="spacer"></div>
+    
+  </div>
+</body>
+</html>
